@@ -1,4 +1,4 @@
-const dollarAmount = 13.32;
+const dollarAmount = 10.32;
 const piggyBank = {
     quarters: 0,
     dimes: 0,
@@ -20,6 +20,14 @@ for(var i = 0; i < value.length; i++) {
 
 console.log(numCoins);
 
+// I haven't been able to figure out how to fill the piggyBank property values with the values in the numCoin array :/
+
+piggyBank.quarters = numCoins[0];
+piggyBank.dimes = numCoins[1];
+piggyBank.nickels = numCoins[2];
+piggyBank.pennies = numCoins[3];
+
+console.log(piggyBank);
 
 
 
