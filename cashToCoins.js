@@ -1,10 +1,5 @@
 const dollarAmount = 10.32;
-const piggyBank = {
-    quarters: 0,
-    dimes: 0,
-    nickels: 0,
-    pennies: 0
-}
+const piggyBank = {}
 
 value = [.25, .10, .05, .01];
 numCoins = [];
