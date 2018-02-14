@@ -1,9 +1,9 @@
-const dollarAmount = 10.32;
+const dollarAmount = 12.10;
 const piggyBank = {}
 
-value = [.25, .10, .05, .01];
+value = [25, 10, 5, 1];
 numCoins = [];
-var money = dollarAmount;
+var money = dollarAmount * 100;
 
 for(var i = 0; i < value.length; i++) {
 
